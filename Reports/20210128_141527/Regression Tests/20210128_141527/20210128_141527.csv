@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Tests,,,,2021-01-28 14:15:44,2021-01-28 14:16:12,28.350s,FAILED
+,,,,,,,
+Test Cases/Verify Correct Alarm Message,,"- An automation script to help user getting started with Mobile automation testing.
+- Script Content: Click ""START ALARM SERVICE"" and click ""STOP ALARM SERVICE"", verify alert show is correct",,2021-01-28 14:15:46,2021-01-28 14:16:01,15.163s,FAILED
+"comment(""Story: Verify correct alarm message"")",,,,2021-01-28 14:15:46,2021-01-28 14:15:46,0.113s,PASSED
+"comment(""Given that user has started an application"")",,,,2021-01-28 14:15:46,2021-01-28 14:15:46,0.008s,PASSED
+"appPath = relativeToAbsolutePath(G_AndroidApp, getProjectDir())",,Get full directory's path of android application,,2021-01-28 14:15:46,2021-01-28 14:15:47,0.353s,PASSED
+"startApplication(appPath, false)",,,,2021-01-28 14:15:47,2021-01-28 14:16:01,13.983s,FAILED
+,,,,,,,
+Test Cases/Verify Last Items In List,,"- An automation script to help user getting started with Mobile automation testing.
+- Script Content: Open the application and verify the items show full when the items over loading",,2021-01-28 14:16:01,2021-01-28 14:16:12,11.262s,FAILED
+"comment(""Story: Verify correct alarm message"")",,,,2021-01-28 14:16:01,2021-01-28 14:16:01,0.010s,PASSED
+"comment(""Given that user has started an application"")",,,,2021-01-28 14:16:01,2021-01-28 14:16:01,0.008s,PASSED
+"appPath = relativeToAbsolutePath(G_AndroidApp, getProjectDir())",,Get full directory's path of android application,,2021-01-28 14:16:01,2021-01-28 14:16:01,0.008s,PASSED
+"startApplication(appPath, false)",,,,2021-01-28 14:16:01,2021-01-28 14:16:12,10.812s,FAILED
